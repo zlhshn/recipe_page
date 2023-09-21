@@ -1,4 +1,5 @@
 # recipe_page
  
- ##Project Goal
- *Creating page using Html and basic CSS
+ ## Project Goal <br>
+ 
+ * Creating page using Html and basic CSS
