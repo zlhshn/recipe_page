@@ -4,20 +4,19 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
-.main{
-    width: 65%;
-    margin: auto;
-}
 
 .container{
     /* padding: 5px; */
     text-align: left;
-    margin: 20px 0 100px 0;
+    width: 70%;
+    margin: auto;
+    /* margin: 0px 0 100px 0px; */
     
 }
 /* baslıktan -img e kadar */
 
 h1{
+    margin-top: 40px;
     margin-bottom: 20px;
 }
 
@@ -70,10 +69,14 @@ a:visited {
 /* directions */
 .directions{
     margin-top: 40px;
+    width: 600px;
 }
+
+
 /* nutritions */
 .nutrition{
     margin-top: 30px;
+    margin-bottom: 100px;
 }
 
 .nutrition small{
