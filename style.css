@@ -10,22 +10,22 @@
 }
 
 .container{
-    /* background-color: beige; */
-    padding: 5px;
+    /* padding: 5px; */
     text-align: left;
-    margin: 20px;
+    margin: 20px 0 100px 0;
     
 }
+/* baslıktan -img e kadar */
 
 h1{
     margin-bottom: 20px;
 }
 
 div p{
-    text-align: left;
+    /* text-align: left; */
     width: 600px;
     margin: 20px 0 20px 0;
-    word-spacing: 4px;
+    word-spacing: 3px;
 }
 
 .karen{
@@ -37,17 +37,18 @@ div a{
     margin-bottom: 3px;
     text-decoration-color: red;
 }
-a:visited{
+
+a:visited {
     color: black;
 }
+/* img-time */
 
 .time{
-    /* padding: 5px; */
-    border-radius: 5px;
+    /* border-radius: 5px; */
     width: 600px;
     height: 70px;
     background-color:  #F5F6EA;
-    margin: 20px 0 20 0;
+    margin: 20px 0 30px 0;
 }
 
 .time p {
@@ -61,19 +62,24 @@ a:visited{
     font-weight: 900;
 }
 
-.ingredients h2, li{
+/* ingredients */
+#ingredients h2, li{
     margin: 20px;
 }
 
+/* directions */
 .directions{
     margin-top: 40px;
 }
-
+/* nutritions */
 .nutrition{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .nutrition small{
     font-weight: 100;
   
+}
+.nutrition span{
+    color: crimson;
 }
