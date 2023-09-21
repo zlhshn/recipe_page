@@ -1,12 +1,20 @@
 *{
+    box-sizing: border-box;
     margin: 0%;
     font-family:Verdana, Geneva, Tahoma, sans-serif
 }
 
+.main{
+    width: 65%;
+    margin: auto;
+}
+
 .container{
+    /* background-color: beige; */
     padding: 5px;
     text-align: left;
-    margin: 30px;
+    margin: 20px;
+    
 }
 
 h1{
@@ -20,4 +28,52 @@ div p{
     word-spacing: 4px;
 }
 
-#
+.karen{
+text-decoration: underline;
+text-decoration-color: red;
+}
+
+div a{
+    margin-bottom: 3px;
+    text-decoration-color: red;
+}
+a:visited{
+    color: black;
+}
+
+.time{
+    /* padding: 5px; */
+    border-radius: 5px;
+    width: 600px;
+    height: 70px;
+    background-color:  #F5F6EA;
+    margin: 20px 0 20 0;
+}
+
+.time p {
+    display: inline;
+    margin: 4px;
+    
+
+}
+
+.time p span{
+    font-weight: 900;
+}
+
+.ingredients h2, li{
+    margin: 20px;
+}
+
+.directions{
+    margin-top: 40px;
+}
+
+.nutrition{
+    margin-top: 20px;
+}
+
+.nutrition small{
+    font-weight: 100;
+  
+}
